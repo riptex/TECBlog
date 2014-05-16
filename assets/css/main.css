@@ -1,4 +1,4 @@
-/*! 
+/*!
 // ===========================================================
 // HPSTR Jekyll Theme
 // By: Michael Rose
@@ -184,7 +184,7 @@ textarea {
   img {
     max-width: 100% !important;
   }
-  @page  {
+  @page {
     margin: 0.5cm;
   }
   p,
@@ -1523,12 +1523,12 @@ svg:not(:root) {
   outline: none;
 }
 
-.dl-menuwrapper li .dl-back > a {
+.dl-menuwrapper li.dl-back > a {
   padding-left: 30px;
   background: rgba(0, 0, 0, 0.2);
 }
 
-.dl-menuwrapper li .dl-back:after,
+.dl-menuwrapper li.dl-back:after,
 .dl-menuwrapper li > a:not(:only-child):after {
   position: absolute;
   top: 0;
@@ -1540,7 +1540,7 @@ svg:not(:root) {
   speak: none;
 }
 
-.dl-menuwrapper li .dl-back:after {
+.dl-menuwrapper li.dl-back:after {
   left: 10px;
   color: rgba(212, 204, 198, 0.5);
   -webkit-transform: rotate(180deg);
@@ -1617,10 +1617,10 @@ svg:not(:root) {
   display: none;
 }
 
-/* 
+/*
 When a submenu is openend, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
@@ -1837,33 +1837,33 @@ All this is done for any sub-level being entered.
 }
 
 /*!
- *  Font Awesome 3.2.0
- *  the iconic font designed for Bootstrap
- *  ------------------------------------------------------------------------------
- *  The full suite of pictographic icons, examples, and documentation can be
- *  found at http://fontawesome.io.  Stay up to date on Twitter at
- *  http://twitter.com/fontawesome.
- *
- *  License
- *  ------------------------------------------------------------------------------
- *  - The Font Awesome font is licensed under SIL OFL 1.1 -
- *    http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - Font Awesome documentation licensed under CC BY 3.0 -
- *    http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fontawesome.io"
- *
- *  Author - Dave Gandy
- *  ------------------------------------------------------------------------------
- *  Email: dave@fontawesome.io
- *  Twitter: http://twitter.com/byscuits
- *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
- */
+* Font Awesome 3.2.0
+* the iconic font designed for Bootstrap
+* ------------------------------------------------------------------------------
+* The full suite of pictographic icons, examples, and documentation can be
+* found at http://fontawesome.io. Stay up to date on Twitter at
+* http://twitter.com/fontawesome.
+*
+* License
+* ------------------------------------------------------------------------------
+* - The Font Awesome font is licensed under SIL OFL 1.1 -
+* http://scripts.sil.org/OFL
+* - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
+* http://opensource.org/licenses/mit-license.html
+* - Font Awesome documentation licensed under CC BY 3.0 -
+* http://creativecommons.org/licenses/by/3.0/
+* - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+* "Font Awesome by Dave Gandy - http://fontawesome.io"
+*
+* Author - Dave Gandy
+* ------------------------------------------------------------------------------
+* Email: dave@fontawesome.io
+* Twitter: http://twitter.com/byscuits
+* Work: Lead Product Designer @ Kyruus - http://kyruus.com
+*/
 
 /* FONT PATH
- * -------------------------- */
+* -------------------------- */
 
 @font-face {
   font-family: 'FontAwesome';
@@ -1874,7 +1874,7 @@ All this is done for any sub-level being entered.
 }
 
 /* FONT AWESOME CORE
- * -------------------------- */
+* -------------------------- */
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -2028,7 +2028,7 @@ a [class*=" icon-"] {
 }
 
 /* BOOTSTRAP SPECIFIC CLASSES
- * -------------------------- */
+* -------------------------- */
 
 /* Bootstrap 2.0 sprites.less reset */
 
@@ -2132,7 +2132,7 @@ a [class*=" icon-"] {
 }
 
 /* EXTRAS
- * -------------------------- */
+* -------------------------- */
 
 /* Stacked and layered icon */
 
@@ -2278,7 +2278,7 @@ a .icon-flip-vertical:before {
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
+readers do not read off random characters that represent icons */
 
 .icon-glass:before {
   content: "\f000";
