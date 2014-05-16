@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(grunt) {
-
+ 
   grunt.initConfig({
     jshint: {
       options: {
@@ -24,17 +24,6 @@ module.exports = function(grunt) {
             'assets/less/main.less'
           ]
         }
-      },
-      dev: {
-        options: {
-          compile: true,
-          compress: false
-        },
-        files: {
-          'assets/css/main.css': [
-            'assets/less/main.less'
-          ]
-        }
       }
     },
     uglify: {
@@ -47,7 +36,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    imagemin: {
+    imgcompress: {
       dist: {
         options: {
           optimizationLevel: 7,
@@ -93,26 +82,26 @@ module.exports = function(grunt) {
       ]
     }
   });
-
+ 
   // Load tasks
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-recess');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-imgcompress');
   grunt.loadNpmTasks('grunt-svgmin');
-
+ 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'recess',
     'uglify',
-    'imagemin',
+    'imgcompress',
     'svgmin'
   ]);
   grunt.registerTask('dev', [
     'watch'
   ]);
-
+ 
 };
