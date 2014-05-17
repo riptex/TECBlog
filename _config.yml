@@ -1,22 +1,22 @@
-title:            Third Eye Code
+title:            Not Your Eyeball
 description:      Home Page
 disqus_shortname: 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://blog.thirdeyecode.com
+url:              http://blog.scassa.com
 
 # Owner/author information
 owner:
-  name:           lpf23
-  company:        Third Eye Code
+  name:           Dave
+  company:        Scassa.com /init
   avatar:         avatar.png
   bio:            "Austin, Texas."
-  email:          info@thirdeyecode.com
+  email:          queasybiscuit@scassa.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        23lpf
-  facebook:       
-  github:         lpf23
+  twitter:        riptex
+  facebook:       dscassa@scassa.com
+  github:         riptex
   stackexchange:  
-  linkedin:       
+  linkedin:       dscassa
   instagram:      
   flickr:         
   tumblr:         
